@@ -1,0 +1,48 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+    <constant name="struts.i18n.encoding" value="LATIN1" />
+    
+    <!-- Used for advanced wilcard mapping -->
+    <constant name="struts.enable.SlashesInActionNames" value="true"/>
+    <constant name="struts.mapper.alwaysSelectFullNamespace" value="false"/>
+    <constant name="struts.patternMatcher" value="regex" />
+
+    <!-- Package default -->
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- Lista de interceptors -->
+        <interceptors>
+            <interceptor name="login" class="br.yardplanner.interceptor.LoginInterceptor"/>
+            <interceptor name="root" class="br.yardplanner.interceptor.RootInterceptor"/>
+            
+            <interceptor-stack name="autenticate">
+                <interceptor-ref name="login" />
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+            
+            <interceptor-stack name="root_access">
+                <interceptor-ref name="login" />
+                <interceptor-ref name="root" />
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        
+        <!-- Resultados globais das saidas -->
+        <global-results>
+            <result name="login_required" type="redirectAction">
+                <param name="actionName">login</param>
+                <param name="namespace">/usuario</param>
+            </result>
+            <result name="root_required" type="redirectAction">
+                <param name="actionName">index</param>
+                <param name="namespace">/</param>
+            </result>
+        </global-results>
+    </package>
+    
+    <package name="user" namespace="/usuario" extends="default"></package>
+    <package name="yard" namespace="/patio" extends="default"></package>
+    <package name="block" namespace="/bloco" extends="default"></package>
+</struts>

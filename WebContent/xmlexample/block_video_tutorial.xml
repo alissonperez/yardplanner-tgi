@@ -1,0 +1,71 @@
+<!-- XML de Exemplo para upload -->
+<block>
+<container code="QXXU9477529" posX="0" posY="0" posZ="0"/>
+<container code="EVZU3420235" posX="0" posY="0" posZ="1"/>
+
+<container code="EWQU05560610" posX="1" posY="0" posZ="0"/>
+<container code="ZJDU4527273" posX="1" posY="0" posZ="1"/>
+<container code="JHQU02842910" posX="1" posY="0" posZ="2"/>
+
+<container code="KUAU6260167" posX="3" posY="0" posZ="0"/>
+<container code="OEOU5177569" posX="3" posY="0" posZ="1"/>
+<container code="UWPU6408288" posX="3" posY="0" posZ="2"/>
+
+<container code="VVFU5532226" posX="4" posY="0" posZ="0"/>
+<container code="SEAU7500906" posX="4" posY="0" posZ="1"/>
+<container code="HSNU4499211" posX="4" posY="0" posZ="2"/>
+
+<container code="APUU0999926" posX="0" posY="1" posZ="0"/>
+<container code="EBZU6297335" posX="0" posY="1" posZ="1"/>
+<container code="RJPU01489710" posX="0" posY="1" posZ="2"/>
+
+<container code="BHHU7420408" posX="1" posY="1" posZ="0"/>
+<container code="VYKU5370258" posX="1" posY="1" posZ="1"/>
+
+<container code="VUWU9765026" posX="3" posY="1" posZ="0"/>
+
+<container code="RRGU0506585" posX="4" posY="1" posZ="0"/>
+<container code="SIJU6913025" posX="4" posY="1" posZ="1"/>
+<container code="DUWU8707449" posX="4" posY="1" posZ="2"/>
+
+<container code="TMOU8146264" posX="0" posY="2" posZ="0"/>
+<container code="VHMU2804505" posX="0" posY="2" posZ="1"/>
+
+<container code="UXQU6798638" posX="1" posY="2" posZ="0"/>
+
+<container code="LWBU9512009" posX="2" posY="2" posZ="0"/>
+<container code="FMFU6384730" posX="2" posY="2" posZ="1"/>
+
+<container code="JPKU3844995" posX="4" posY="2" posZ="0"/>
+<container code="PMLU5976047" posX="4" posY="2" posZ="1"/>
+<container code="KAMU7333844" posX="4" posY="2" posZ="2"/>
+
+<container code="YDUU8126884" posX="0" posY="3" posZ="0"/>
+<container code="AXUU5712866" posX="0" posY="3" posZ="1"/>
+<container code="AHMU5317725" posX="0" posY="3" posZ="2"/>
+
+<container code="NAKU0114512" posX="1" posY="3" posZ="0"/>
+<container code="GSVU5518391" posX="1" posY="3" posZ="1"/>
+
+<container code="HBJU6760513" posX="2" posY="3" posZ="0"/>
+<container code="EJZU6933534" posX="2" posY="3" posZ="1"/>
+<container code="TEGU73553910" posX="2" posY="3" posZ="2"/>
+
+<container code="UONU4973985" posX="3" posY="3" posZ="0"/>
+
+<container code="BVIU3692709" posX="4" posY="3" posZ="0"/>
+<container code="TUKU5787595" posX="4" posY="3" posZ="1"/>
+
+<container code="FLRU1400177" posX="0" posY="4" posZ="0"/>
+<container code="ZBAU7082222" posX="0" posY="4" posZ="1"/>
+<container code="VPQU1617265" posX="0" posY="4" posZ="2"/>
+
+<container code="HZCU6787331" posX="2" posY="4" posZ="0"/>
+<container code="HWCU2246971" posX="2" posY="4" posZ="1"/>
+<container code="QHJU7638599" posX="2" posY="4" posZ="2"/>
+
+<container code="ZFXU66083210" posX="3" posY="4" posZ="0"/>
+<container code="QBBU2402229" posX="3" posY="4" posZ="1"/>
+
+<container code="TDMU90120810" posX="4" posY="4" posZ="0"/>
+</block>

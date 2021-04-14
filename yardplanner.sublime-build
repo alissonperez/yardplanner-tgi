@@ -1,0 +1,4 @@
+{
+	"cmd": ["ant"] ,
+	"working_dir": "${project_path:${folder}}"
+}

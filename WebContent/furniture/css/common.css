@@ -1,0 +1,61 @@
+body { margin: 70px 0 0 0 ; }
+
+/* GERAL */
+.clear_both { clear: both ; }
+iframe { border: none; }
+
+/** Registro do Usuário **/
+
+.alert-block > li { list-style: none ; }
+
+table.position input { width: 25px; }
+
+table.block { width: 100%; }
+table.block th { font-weight: bold; width: 20px !important ; }
+table.block thead th { width: auto ; }
+table.block td { text-align: center; line-height: 25px; border: 1px solid #EFEFEF ; width: 100px ;}
+table.block td.filled { background-color: #EEE; }
+
+/** Página de remoção **/
+table.block td.removable div { position: relative; }
+table.block td.removable input { position: absolute ; right: 2px; }
+
+/** Footer **/
+
+footer { padding-top: 15px; border-top: 1px solid #EEE; margin: 20px 0;}
+footer.p { margin: 0 0 2px ; }
+
+/** Navbar **/
+
+.navbar-btn { margin: 5px 0 0 !important ; height: 28px ; padding: 0 ; }
+
+/** Formulário em geral **/
+
+form span.errorMessage { display: none ; }
+
+/** Tela de confirmação **/
+
+.remove_confirmation { background-color: #FFF1D1; }
+.remove_confirmation > div { padding: 25px 0 ; }
+.remove_confirmation .cost_to_remove { text-align: center; font-weight: bold; font-size: 30px; color: #666; }
+.remove_confirmation .buttons { text-align: center; padding: 10px 0 0 0; }
+
+ul.sequence_to_remove { list-style-type: none ; margin: 0 ;}
+ul.sequence_to_remove li { text-align: center ; line-height: 30px; font-size: 22px; font-weight: bold ; }
+
+.container_movement p { margin: 0 ; }
+
+.checkboxLabel { width: auto ; display: block; }
+
+/* Logotipo */
+.header-logo { margin-bottom: 5px; }
+
+/* Help - Manual */
+.manual .fig { float: right ; text-align: center; margin: 0 0 0 10px ;}
+.manual .fig.left { float: left; margin: 0 10px 0 0 ; }
+.manual .fig .description { background-color: #EEE; padding: 5px; font-size: 11px; text-align: left; }
+.manual .manual_item { clear: both ; padding: 30px 0; border-bottom: 1px solid #CCC; }
+.manual .indent1 { padding-left: 50px ; }
+.manual .indent2 { padding-left: 80px ; }
+.manual .video_tutorial { text-align: center ; }
+.manual .separator { clear: both ; padding: 20px 0; }

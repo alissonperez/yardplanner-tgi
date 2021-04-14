@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings DEV - ALISSON 
+        --> 
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/yardplanner_core</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">123</property>
+
+		<!-- PRODUÇÃO
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://db.tuilux.com.br/yardplanner_core</property>
+        <property name="connection.username">tuiluxrds</property>
+        <property name="connection.password">TuiluxRds</property> 
+		-->
+
+        <!-- JDBC connection pool (use the built-in) -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">none</property>
+
+        <!-- Names the annotated entity class -->
+        <mapping class="br.yardplanner.model.User"/>
+        <mapping class="br.yardplanner.model.Yard"/>
+        <mapping class="br.yardplanner.model.Block"/>
+        <mapping class="br.yardplanner.model.Container"/>
+        <mapping class="br.yardplanner.model.ContainerSize"/>
+
+    </session-factory>
+
+</hibernate-configuration>

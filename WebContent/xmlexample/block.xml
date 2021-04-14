@@ -1,0 +1,7 @@
+<!-- XML de Exemplo para upload -->
+<block>
+<container code="EWQU05560610" posX="1" posY="2" posZ="1"/>
+<container code="KUAU6260167" posX="2" posY="2" posZ="2"/>
+<!-- O sistema gerará um valor aleatótio para o código caso seja deixado em branco -->
+<container code="" posX="2" posY="2" posZ="1"/>
+</block>
